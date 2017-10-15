@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'geometria_lightlight';
+  src: url('./fonts/geometria-light-webfont.woff2') format('woff2'),
+  url('./fonts/geometria-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+
+}
+html{
+  font-size: 1vw;
+  overflow-x: hidden;
+}
+html, body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+
+.box{
+  background: yellow;
+  width: 200px;
+  height:200px;
+}
+
+.floating{
+  position: absolute;
+  top:0;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -ms-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
+  -webkit-backface-visibility: hidden;
+}
+.floating.active{
+  opacity: 1;
+}
+
+.shadow{
+  -webkit-box-shadow: 0px 12px 49px -18px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 12px 49px -18px rgba(0,0,0,0.3);
+  box-shadow: 0px 12px 49px -18px rgba(0,0,0,0.3);
+}
+.shadow--hard{
+  box-shadow: 3px 7px 16px -6px rgba(0,0,0,0.07), 15px 20px 37px -2px rgba(0,0,0,0.07), 20px 42px 80px 6px rgba(0,0,0,0.07), 20px 42px 120px 10px rgba(0,0,0,0.07);
+}
+
+.img-container{
+  width: 100%;
+  padding-top: 61.8%;
+  position: relative;
+  overflow: hidden;
+}
+.img-container.portrait{
+  width: 100%;
+  padding-top: 161.8%;
+  position: relative;
+  overflow: hidden;
+}
+.img-container>img{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
+.paragraph{
+  font-size: 1.25rem;
+  margin-bottom: 2.7rem;
+}
+.paragraph .title{
+  font-size: 2.7082rem;
+  margin-bottom: 1.25rem;
+}
+
+
