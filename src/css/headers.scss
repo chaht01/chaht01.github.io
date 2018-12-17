@@ -1,0 +1,167 @@
+@import "utils";
+@import "variables";
+
+@for $j from 1 through 4 {
+  @if $j == 1 {
+    .program__description {
+      font-size: pxToVw(30)*1vw;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 100;
+      color: $font-black;
+      line-height: 1.6;
+      margin-top: 8vw;
+    }
+    .program__title {
+      font-size: pxToVw(64)*1vw;
+      line-height: 1;
+      color: $font-black;
+    }
+    .article__title{
+      display: block;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 100;
+      font-size: pxToVw(30)*1vw;
+      color: #231f20;
+      line-height: 1;
+    }
+    .article__paragraph{
+      font-size: pxToVw(18)*1vw;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 100;
+      line-height: 1.4;
+      color: #231f20;
+    }
+    .project{
+      margin-top: 7.5vw;
+      margin-bottom: 2.5vw;
+      &__title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: pxToVw(46.24)*1vw;
+        font-weight: 700;
+        &--red{
+          color: #f66241;
+        }
+        &--blue{
+          color: #4d80ea;
+        }
+        &--green{
+          color: #35da80;
+        }
+      }
+      &__desc{
+        margin-top: 1vw;
+        line-height:1;
+        padding-right: 2.5vw;
+      }
+      &__item{
+        font-family: 'Montserrat', sans-serif;
+        font-size: pxToVw(10)*1vw;
+        font-weight: 200;
+      }
+      &__name{
+        font-family: 'Montserrat', sans-serif;
+        font-size: pxToVw(10)*1vw;
+        font-weight: 300;
+        margin-right: 2vw;
+      }
+    }
+  }@else if($j>=2){
+    @media only screen and (min-width: nth($media, $j)) {
+      .program__description {
+        font-size: pxToVw(18)*1vw;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 100;
+        color: $font-black;
+        margin-top:0;
+      }
+      .program__title {
+        font-size: pxToVw(55.22)*1vw;
+        line-height: 1;
+        color: $font-black;
+      }
+      .article__title{
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        font-size: pxToVw(30)*1vw;
+        color: #231f20;
+        line-height: 1;
+      }
+      .article__paragraph{
+        font-size: pxToVw(18)*1vw;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 100;
+        line-height: 1.4;
+        color: #231f20;
+      }
+      .project{
+        margin-top: 7.5vw;
+        margin-bottom: 2.5vw;
+        &__title{
+          font-family: 'Montserrat', sans-serif;
+          font-size: pxToVw(46.24)*1vw;
+          font-weight: 700;
+          &--red{
+            color: #f66241;
+          }
+          &--blue{
+            color: #4d80ea;
+          }
+          &--green{
+            color: #35da80;
+          }
+        }
+        &__desc{
+          margin-top: 1.5vw;
+          line-height:1.4;
+        }
+        &__item{
+          font-family: 'Montserrat', sans-serif;
+          font-size: pxToVw(15.78)*1vw;
+          font-weight: 200;
+        }
+        &__name{
+          font-family: 'Montserrat', sans-serif;
+          font-size: pxToVw(15.78)*1vw;
+          font-weight: 300;
+          margin-right: 2vw;
+        }
+      }
+
+    }
+  }
+}
+
+
+
+.section__title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: pxToVw(50.65)*1vw;
+  color: $font-black;
+  line-height: 1;
+  margin-bottom: 3vw;
+  font-weight: 100;
+}
+.section__description{
+  font-size: pxToVw(18)*1vw;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 100;
+  color: $font-black;
+}
+.section__description--reverse{
+  color: #fff;
+}
+
+
+.article__paragraph--reverse{
+  color: #fff;
+}
+
+
+
+// implementation
+
+
+.align--justify{
+  text-align: justify;
+}

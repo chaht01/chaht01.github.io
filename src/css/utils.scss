@@ -1,0 +1,9 @@
+@function ptToPx ($pt){
+  @return $pt*96/72
+  //@return (50/77.04)*$pt
+  //@return $pt
+}
+
+@function pxToVw($px){
+  @return 100*$px/1200
+}
