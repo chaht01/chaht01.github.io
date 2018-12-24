@@ -1,18 +1,19 @@
 import React from "react";
 import blendStyle from "../blendStyle";
 import Intro from "./Intro";
-import Inspiration from "./Inspiration";
-import Ideation from "./Ideation";
-import Implementation from "./Implementation";
-
+import { colors } from "./var";
 import "./ndf.css";
 import ReactDOM from "react-dom";
-const style = {
-  scrollDisable: {
-    width: "100%",
-    overflowX: "hidden"
-  }
-};
+import styled from "styled-components";
+import Preview from "./Preview";
+
+const BlackContainer = styled.div`
+  background: ${colors.semiblack};
+  color: ${colors.semiwhite};
+  width: 100%;
+  overflow-x: hidden;
+`;
+
 class Twitch extends React.Component {
   constructor(props) {
     super(props);
@@ -29,15 +30,17 @@ class Twitch extends React.Component {
       // and set the opacity to 1
       elem.style.opacity = 1;
     });
+    document.body.style.backgroundColor = "#62449f";
+  }
+  componentWillUnmount() {
+    document.body.style.backgroundColor = "initial";
   }
   render() {
     return (
-      <div style={style.scrollDisable}>
+      <BlackContainer>
         <Intro />
-        <Inspiration />
-        <Ideation />
-        <Implementation />
-      </div>
+        <Preview />
+      </BlackContainer>
     );
   }
 }

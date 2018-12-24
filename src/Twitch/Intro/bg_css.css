@@ -1,0 +1,6 @@
+.keyword {
+  transition: background-color 0.5s;
+}
+.keyword.hidden {
+  background: transparent !important;
+}

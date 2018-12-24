@@ -1,76 +1,97 @@
-ul,ol{
+ul,
+ol {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-
 @font-face {
-  font-family: 'geometria_lightlight';
-  src: url('../fonts/geometria-light-webfont.woff2') format('woff2'),
-  url('../fonts/geometria-light-webfont.woff') format('woff');
+  font-family: "geometria_lightlight";
+  src: url("../fonts/geometria-light-webfont.woff2") format("woff2"),
+    url("../fonts/geometria-light-webfont.woff") format("woff");
   font-weight: 300;
   font-style: normal;
-
 }
-html{
+html {
   font-size: 1vw;
   overflow-x: hidden;
 }
-html, body {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-
-
-.box{
+.box {
   background: yellow;
   width: 200px;
-  height:200px;
+  height: 200px;
 }
 
-.floating{
+.floating {
   position: absolute;
-  top:0;
+  top: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  -moz-transition: opacity .5s;
-  -ms-transition: opacity .5s;
-  -o-transition: opacity .5s;
-  transition: opacity .5s;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
   -webkit-backface-visibility: hidden;
 }
-.floating.active{
+.floating.active {
   opacity: 1;
 }
 
-.shadow{
-  -webkit-box-shadow: 0px 12px 49px -18px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0px 12px 49px -18px rgba(0,0,0,0.3);
-  box-shadow: 0px 12px 49px -18px rgba(0,0,0,0.3);
+.shadow {
+  -webkit-box-shadow: 0px 12px 49px -18px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 12px 49px -18px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 12px 49px -18px rgba(0, 0, 0, 0.3);
 }
-.shadow--hard{
-  box-shadow: 3px 7px 16px -6px rgba(0,0,0,0.07), 15px 20px 37px -2px rgba(0,0,0,0.07), 20px 42px 80px 6px rgba(0,0,0,0.07), 20px 42px 120px 10px rgba(0,0,0,0.07);
+.shadow-5 {
+  box-shadow: 3px 7px 16px -6px rgba(0, 0, 0, 0.07),
+    15px 20px 37px -2px rgba(0, 0, 0, 0.07),
+    20px 42px 80px 6px rgba(0, 0, 0, 0.07),
+    20px 42px 120px 10px rgba(0, 0, 0, 0.07);
 }
 
-.img-container{
+.shadow-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.shadow-2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.shadow-3 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.shadow-4 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.shadow-5 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.img-container {
   width: 100%;
   padding-top: 61.8%;
   position: relative;
   overflow: hidden;
 }
-.img-container.portrait{
+.img-container.portrait {
   width: 100%;
   padding-top: 161.8%;
   position: relative;
   overflow: hidden;
 }
-.img-container>img{
+.img-container > img {
   width: 100%;
   position: absolute;
   top: 0;
@@ -79,31 +100,29 @@ html, body {
   right: 0;
 }
 
-
-.paragraph{
+.paragraph {
   font-size: 1.25rem;
   margin-bottom: 2.7rem;
 }
-.paragraph .title{
+.paragraph .title {
   font-size: 2.7082rem;
   margin-bottom: 1.25rem;
 }
 
-
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
-li>a{
+li > a {
   display: block;
   width: 100%;
   height: 100%;
 }
 
-.fade{
+.fade {
   opacity: 0;
   transition: all 10s;
 }
-.fade.in{
+.fade.in {
   opacity: 1;
 }

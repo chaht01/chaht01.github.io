@@ -5,8 +5,7 @@
     .block-hide {
       display: none;
     }
-  }
-  @else {
+  } @else {
     @media only screen and (max-width: nth($media, $j)) {
       .block-show-max-#{nth($list, $j)} {
         display: block;
@@ -30,21 +29,24 @@
   }
 }
 
-@for $j from 1 through 4{
+@for $j from 1 through 4 {
   @if $j == 1 {
     @for $i from 1 through $total-columns {
-      $w: 100/$total-columns*$i;
+      $w: 100 / $total-columns * $i;
       .col-#{nth($list, $j)}-#{$i} {
         box-sizing: border-box;
         -ms-flex: 0 0 auto;
         -webkit-box-flex: 0;
         flex: 0 0 auto;
-        -ms-flex-preferred-size: $w*1%;
-        flex-basis: $w*1%;
-        max-width: $w*1%;
+        -ms-flex-preferred-size: $w * 1%;
+        flex-basis: $w * 1%;
+        max-width: $w * 1%;
       }
       .col-#{nth($list, $j)}-offset-#{$i} {
-        margin-left: $w*1%;
+        margin-left: $w * 1%;
+      }
+      .col-#{nth($list, $j)}-offset-reverse-#{$i} {
+        margin-left: -$w * 1%;
       }
     }
     .col-#{nth($list, $j)} {
@@ -108,27 +110,28 @@
       -webkit-box-ordinal-group: 2;
       order: 1;
     }
-  }
-
-  @else{
+  } @else {
     @media only screen and (min-width: nth($media, $j)) {
       @for $i from 1 through $total-columns {
-        $w: 100/$total-columns*$i;
+        $w: 100 / $total-columns * $i;
 
         .col-#{nth($list, $j)}-#{$i} {
           box-sizing: border-box;
           -ms-flex: 0 0 auto;
           -webkit-box-flex: 0;
           flex: 0 0 auto;
-          -ms-flex-preferred-size: $w*1%;
-          flex-basis: $w*1%;
-          max-width: $w*1%;
+          -ms-flex-preferred-size: $w * 1%;
+          flex-basis: $w * 1%;
+          max-width: $w * 1%;
         }
         .col-#{nth($list, $j)}-offset-#{$i} {
-          margin-left: $w*1%;
+          margin-left: $w * 1%;
+        }
+        .col-#{nth($list, $j)}-offset-reverse-#{$i} {
+          margin-left: -$w * 1%;
         }
       }
-      .col-#{nth($list, $j)}{
+      .col-#{nth($list, $j)} {
         -webkit-flex-grow: 1;
         -ms-flex-positive: 1;
         -webkit-box-flex: 1;
@@ -137,54 +140,54 @@
         flex-basis: 0;
         max-width: 100%;
       }
-      .start-#{nth($list, $j)}{
+      .start-#{nth($list, $j)} {
         -ms-flex-pack: start;
         -webkit-box-pack: start;
         justify-content: flex-start;
         text-align: start;
       }
-      .center-#{nth($list, $j)}{
+      .center-#{nth($list, $j)} {
         -ms-flex-pack: center;
         -webkit-box-pack: center;
         justify-content: center;
         text-align: center;
       }
-      .end-#{nth($list, $j)}{
+      .end-#{nth($list, $j)} {
         -ms-flex-pack: end;
         -webkit-box-pack: end;
         justify-content: flex-end;
         text-align: end;
       }
-      .top-#{nth($list, $j)}{
+      .top-#{nth($list, $j)} {
         -ms-flex-align: start;
         -webkit-box-align: start;
         align-items: flex-start;
       }
-      .middle-#{nth($list, $j)}{
+      .middle-#{nth($list, $j)} {
         -ms-flex-align: center;
         -webkit-box-align: center;
         align-items: center;
       }
-      .bottom-#{nth($list, $j)}{
+      .bottom-#{nth($list, $j)} {
         -ms-flex-align: end;
         -webkit-box-align: end;
         align-items: flex-end;
       }
-      .around-#{nth($list, $j)}{
+      .around-#{nth($list, $j)} {
         -ms-flex-pack: distribute;
         justify-content: space-around;
       }
-      .between-#{nth($list, $j)}{
+      .between-#{nth($list, $j)} {
         -ms-flex-pack: justify;
         -webkit-box-pack: justify;
         justify-content: space-between;
       }
-      .first-#{nth($list, $j)}{
+      .first-#{nth($list, $j)} {
         -ms-flex-order: -1;
         -webkit-box-ordinal-group: 0;
         order: -1;
       }
-      .last-#{nth($list, $j)}{
+      .last-#{nth($list, $j)} {
         -ms-flex-order: 1;
         -webkit-box-ordinal-group: 2;
         order: 1;
@@ -209,9 +212,9 @@
   flex-wrap: wrap;
 }
 .row:before,
-.row:after{
+.row:after {
   display: block;
-  content: '';
+  content: "";
   position: absolute;
 }
 

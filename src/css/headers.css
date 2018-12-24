@@ -4,12 +4,14 @@
   font-weight: 100;
   color: #231f20;
   line-height: 1.6;
-  margin-top: 8vw; }
+  margin-top: 8vw;
+}
 
 .program__title {
-  font-size: 5.3333333333vw;
+  font-size: 5.33333vw;
   line-height: 1;
-  color: #231f20; }
+  color: #231f20;
+}
 
 .article__title {
   display: block;
@@ -17,41 +19,58 @@
   font-weight: 100;
   font-size: 2.5vw;
   color: #231f20;
-  line-height: 1; }
+  line-height: 1;
+}
 
 .article__paragraph {
   font-size: 1.5vw;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 100;
   line-height: 1.4;
-  color: #231f20; }
+  color: #231f20;
+}
 
 .project {
   margin-top: 7.5vw;
-  margin-bottom: 2.5vw; }
-  .project__title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.8533333333vw;
-    font-weight: 700; }
-    .project__title--red {
-      color: #f66241; }
-    .project__title--blue {
-      color: #4d80ea; }
-    .project__title--green {
-      color: #35da80; }
-  .project__desc {
-    margin-top: 1vw;
-    line-height: 1;
-    padding-right: 2.5vw; }
-  .project__item {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.8333333333vw;
-    font-weight: 200; }
-  .project__name {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.8333333333vw;
-    font-weight: 300;
-    margin-right: 2vw; }
+  margin-bottom: 2.5vw;
+}
+
+.project__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.85333vw;
+  font-weight: 700;
+}
+
+.project__title--red {
+  color: #f66241;
+}
+
+.project__title--blue {
+  color: #4d80ea;
+}
+
+.project__title--green {
+  color: #35da80;
+}
+
+.project__desc {
+  margin-top: 1vw;
+  line-height: 1;
+  padding-right: 2.5vw;
+}
+
+.project__item {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.83333vw;
+  font-weight: 200;
+}
+
+.project__name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.83333vw;
+  font-weight: 300;
+  margin-right: 2vw;
+}
 
 @media only screen and (min-width: 640px) {
   .program__description {
@@ -59,180 +78,214 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     color: #231f20;
-    margin-top: 0; }
-
+    margin-top: 0;
+  }
   .program__title {
-    font-size: 4.6016666667vw;
+    font-size: 4.60167vw;
     line-height: 1;
-    color: #231f20; }
-
+    color: #231f20;
+  }
   .article__title {
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 2.5vw;
     color: #231f20;
-    line-height: 1; }
-
+    line-height: 1;
+  }
   .article__paragraph {
     font-size: 1.5vw;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     line-height: 1.4;
-    color: #231f20; }
-
+    color: #231f20;
+  }
   .project {
     margin-top: 7.5vw;
-    margin-bottom: 2.5vw; }
-    .project__title {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 3.8533333333vw;
-      font-weight: 700; }
-      .project__title--red {
-        color: #f66241; }
-      .project__title--blue {
-        color: #4d80ea; }
-      .project__title--green {
-        color: #35da80; }
-    .project__desc {
-      margin-top: 1.5vw;
-      line-height: 1.4; }
-    .project__item {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.315vw;
-      font-weight: 200; }
-    .project__name {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.315vw;
-      font-weight: 300;
-      margin-right: 2vw; } }
+    margin-bottom: 2.5vw;
+  }
+  .project__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.85333vw;
+    font-weight: 700;
+  }
+  .project__title--red {
+    color: #f66241;
+  }
+  .project__title--blue {
+    color: #4d80ea;
+  }
+  .project__title--green {
+    color: #35da80;
+  }
+  .project__desc {
+    margin-top: 1.5vw;
+    line-height: 1.4;
+  }
+  .project__item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.315vw;
+    font-weight: 200;
+  }
+  .project__name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.315vw;
+    font-weight: 300;
+    margin-right: 2vw;
+  }
+}
+
 @media only screen and (min-width: 960px) {
   .program__description {
     font-size: 1.5vw;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     color: #231f20;
-    margin-top: 0; }
-
+    margin-top: 0;
+  }
   .program__title {
-    font-size: 4.6016666667vw;
+    font-size: 4.60167vw;
     line-height: 1;
-    color: #231f20; }
-
+    color: #231f20;
+  }
   .article__title {
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 2.5vw;
     color: #231f20;
-    line-height: 1; }
-
+    line-height: 1;
+  }
   .article__paragraph {
     font-size: 1.5vw;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     line-height: 1.4;
-    color: #231f20; }
-
+    color: #231f20;
+  }
   .project {
     margin-top: 7.5vw;
-    margin-bottom: 2.5vw; }
-    .project__title {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 3.8533333333vw;
-      font-weight: 700; }
-      .project__title--red {
-        color: #f66241; }
-      .project__title--blue {
-        color: #4d80ea; }
-      .project__title--green {
-        color: #35da80; }
-    .project__desc {
-      margin-top: 1.5vw;
-      line-height: 1.4; }
-    .project__item {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.315vw;
-      font-weight: 200; }
-    .project__name {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.315vw;
-      font-weight: 300;
-      margin-right: 2vw; } }
+    margin-bottom: 2.5vw;
+  }
+  .project__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.85333vw;
+    font-weight: 700;
+  }
+  .project__title--red {
+    color: #f66241;
+  }
+  .project__title--blue {
+    color: #4d80ea;
+  }
+  .project__title--green {
+    color: #35da80;
+  }
+  .project__desc {
+    margin-top: 1.5vw;
+    line-height: 1.4;
+  }
+  .project__item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.315vw;
+    font-weight: 200;
+  }
+  .project__name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.315vw;
+    font-weight: 300;
+    margin-right: 2vw;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   .program__description {
     font-size: 1.5vw;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     color: #231f20;
-    margin-top: 0; }
-
+    margin-top: 0;
+  }
   .program__title {
-    font-size: 4.6016666667vw;
+    font-size: 4.60167vw;
     line-height: 1;
-    color: #231f20; }
-
+    color: #231f20;
+  }
   .article__title {
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 2.5vw;
     color: #231f20;
-    line-height: 1; }
-
+    line-height: 1;
+  }
   .article__paragraph {
     font-size: 1.5vw;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     line-height: 1.4;
-    color: #231f20; }
-
+    color: #231f20;
+  }
   .project {
     margin-top: 7.5vw;
-    margin-bottom: 2.5vw; }
-    .project__title {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 3.8533333333vw;
-      font-weight: 700; }
-      .project__title--red {
-        color: #f66241; }
-      .project__title--blue {
-        color: #4d80ea; }
-      .project__title--green {
-        color: #35da80; }
-    .project__desc {
-      margin-top: 1.5vw;
-      line-height: 1.4; }
-    .project__item {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.315vw;
-      font-weight: 200; }
-    .project__name {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.315vw;
-      font-weight: 300;
-      margin-right: 2vw; } }
+    margin-bottom: 2.5vw;
+  }
+  .project__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.85333vw;
+    font-weight: 700;
+  }
+  .project__title--red {
+    color: #f66241;
+  }
+  .project__title--blue {
+    color: #4d80ea;
+  }
+  .project__title--green {
+    color: #35da80;
+  }
+  .project__desc {
+    margin-top: 1.5vw;
+    line-height: 1.4;
+  }
+  .project__item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.315vw;
+    font-weight: 200;
+  }
+  .project__name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.315vw;
+    font-weight: 300;
+    margin-right: 2vw;
+  }
+}
+
 .section__title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 4.2208333333vw;
+  font-size: 4.22083vw;
   color: #231f20;
   line-height: 1;
   margin-bottom: 3vw;
-  font-weight: 100; }
+  font-weight: 100;
+}
 
 .section__description {
   font-size: 1.5vw;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 100;
-  color: #231f20; }
+  color: #231f20;
+}
 
 .section__description--reverse {
-  color: #fff; }
+  color: #fff;
+}
 
 .article__paragraph--reverse {
-  color: #fff; }
+  color: #fff;
+}
 
 .align--justify {
-  text-align: justify; }
-
+  text-align: justify;
+}
 /*# sourceMappingURL=headers.css.map */

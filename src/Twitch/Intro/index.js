@@ -1,116 +1,131 @@
 import React from "react";
-import Wallpaper from "../Wallpaper";
-import topic_napp from "./img/napp.png";
-import topic_nstudio from "./img/studio.png";
-import topic_ni from "./img/naveri.png";
-import topic_neditor from "./img/smarteditor.png";
-import topic_nkeyboard from "./img/nkeyboard.png";
-import topic_nradio from "./img/nradio.png";
-import topic_ncafe from "./img/ncafe.png";
-import topic_nlive from "./img/nlive.png";
-import * as styled from "styled-components";
+import styled from "styled-components";
+import ChatTransitionMp4 from "./img/intro_bg_mobile.mp4";
+import ChatTransition from "./bg";
+import { colors } from "../var";
+import { ProgramTitle, ProgramDescription, DemoLink } from "../Header";
+const VideoWrapper = styled.div`
+  width: 100%;
+  padding-top: ${100 / 1.618}%;
+  position: relative;
+  & > iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+`;
 
-const Intro = () => {
+const GradientDim = styled.div`
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background: rgba(17, 17, 17, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(17, 17, 17, 1) 0%,
+    rgba(237, 237, 237, 0) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(17, 17, 17, 1)),
+    color-stop(100%, rgba(237, 237, 237, 0))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(17, 17, 17, 1) 0%,
+    rgba(237, 237, 237, 0) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(17, 17, 17, 1) 0%,
+    rgba(237, 237, 237, 0) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(17, 17, 17, 1) 0%,
+    rgba(237, 237, 237, 0) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(17, 17, 17, 1) 0%,
+    rgba(237, 237, 237, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#ededed', GradientType=0 );
+`;
+const IntroContainer = styled.div`
+  background: ${colors.semiblack};
+  color: ${colors.semiwhite};
+`;
+
+const IntroUI = () => {
+  const isMobile = window.mobilecheck();
   return (
-    <div>
+    <IntroContainer>
       <div className="row center-xs middle-xs full-height">
-        <div className="col-xs">
+        {isMobile ? (
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            id="myVideo"
+            style={{ width: "100%", position: "absolute", left: 0, top: "50%" }}
+          >
+            <source src={ChatTransitionMp4} type="video/mp4" />
+          </video>
+        ) : (
+          <ChatTransition />
+        )}
+        <GradientDim />
+        <div className="col-xs" style={{ margin: "auto" }}>
           <div className="row center-xs start-md">
             <div className="col-xs-24 col-md-6 col-md-offset-3">
-              <div className="program__title">Twitch</div>
-              <div className="program__title">Chat</div>
-              <div className="program__title">Visualize</div>
+              <ProgramTitle>Twitch</ProgramTitle>
+              <ProgramTitle>Chat</ProgramTitle>
+              <ProgramTitle>Visualization</ProgramTitle>
+              <DemoLink href="http://twitch.hyuntak.com/">Visit Demo</DemoLink>
             </div>
-            <div className="col-xs-16 col-md-11 col-md-offset-1">
-              <div className="program__description">
-                Naver had managed UXDP, design internship/educating program.
-                Naver restarts their program as Naver Design Fellowship (NDF) by
-                redefining definition of ‘design’ as a constructing service
-                system not as beautifying visual illustration. NDF is a program
-                that nurtures talented students in design. For ten weeks, 8
-                participants challenge 8 actual design issues of Naver services
-                that involves many different departments of the company and our
-                own design outcomes are presented and feedbacks are shared and
-                reflected. For this ten weeks of studying, I have identified
-                problems, specified the ideas and implemented with prototypes.
-                And now I would like to share three of the top most self-valued
-                project as ‘The project of this week’.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-xs-20 col-md-18 col-xs-offset-2 col-md-offset-3">
-          <Wallpaper />
-          <div className="ratio--3-1" />
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-xs-5 col-md-5">
-          <div className="topics shadow--hard">
-            <div className="ratio__inner">
-              <img className="ratio__img" src={topic_napp} />
-            </div>
-          </div>
-        </div>
-        <div className="col-xs-5 col-md-5 col-xs-offset-1 col-md-offset-1">
-          <div className="topics shadow--hard">
-            <div className="ratio__inner">
-              <img className="ratio__img" src={topic_nstudio} />
-            </div>
-          </div>
-        </div>
-        <div className="col-xs-5 col-md-5 col-xs-offset-1 col-md-offset-1">
-          <div className="topics shadow--hard">
-            <div className="ratio__inner">
-              <img className="ratio__img" src={topic_ni} />
-            </div>
-          </div>
-        </div>
-        <div className="col-xs-5 col-md-5 col-xs-offset-1 col-md-offset-1">
-          <div className="topics shadow--hard">
-            <div className="ratio__inner">
-              <img className="ratio__img" src={topic_neditor} />
+            <div className="col-xs-16 col-md-10 col-md-offset-2">
+              <ProgramDescription>
+                This project deals with the visualization work that can visually
+                express, search and analyze the main scene of the video from the
+                video streaming of the game which is recently combined with the
+                chat. Chat used as a window of user response can be effective
+                not only in the amount of simple feeds, but also in presenting
+                meaningful criteria for analyzing videos based on the words
+                used. In this project, I devised and implemented a visualization
+                that will accomplish the goals that will help the audience after
+                collecting the most frequently mentioned words from video chats.
+                The data used in this project was collected through twitch tv,
+                parsed by Python, and implemented using stacked bar chart, tree
+                map, and Volume-Bias chart using d3.js and html canvas.
+              </ProgramDescription>
             </div>
           </div>
         </div>
       </div>
+
       <div className="row center-xs">
-        <div className="col-xs-8 col-md-8">
-          <div className="ratio--4-1" />
+        <div className="col-xs-22 col-sm-18 shadow-5">
+          <VideoWrapper>
+            <iframe
+              id="ytplayer"
+              type="text/html"
+              width="1000"
+              height="562.5"
+              src="https://www.youtube.com/embed/As5N7H4kWVU"
+              frameborder="0"
+              allowfullscreen
+            />
+          </VideoWrapper>
         </div>
       </div>
-      <div className="row">
-        <div className="col-xs-5 col-md-5 col-xs-offset-1 col-md-offset-1">
-          <div className="topics shadow--hard">
-            <div className="ratio__inner">
-              <img className="ratio__img" src={topic_nkeyboard} />
-            </div>
-          </div>
-        </div>
-        <div className="col-xs-5 col-md-5 col-xs-offset-1 col-md-offset-1">
-          <div className="topics shadow--hard">
-            <div className="ratio__inner">
-              <img className="ratio__img" src={topic_nradio} />
-            </div>
-          </div>
-        </div>
-        <div className="col-xs-5 col-md-5 col-xs-offset-1 col-md-offset-1">
-          <div className="topics shadow--hard">
-            <div className="ratio__inner">
-              <img className="ratio__img" src={topic_ncafe} />
-            </div>
-          </div>
-        </div>
-        <div className="col-xs-5 col-md-5 col-xs-offset-1 col-md-offset-1">
-          <div className="topics shadow--hard">
-            <div className="ratio__inner">
-              <img className="ratio__img" src={topic_nlive} />
-            </div>
-          </div>
-        </div>
-      </div>
+
       <div className="block-hide block-show-sm">
         <div className="row">
           <div className="ratio--4-1">
@@ -118,8 +133,13 @@ const Intro = () => {
           </div>
         </div>
       </div>
-    </div>
+    </IntroContainer>
   );
 };
 
-export default Intro;
+const Intro = styled(IntroUI)`
+  background: #231f20;
+  color: #e1e1e7;
+`;
+
+export default IntroUI;
