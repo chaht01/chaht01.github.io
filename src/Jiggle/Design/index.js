@@ -204,19 +204,21 @@ const Design = () => {
               <ArticleSubTitle />
               <ArticleTitle>Iterative A/B Testing</ArticleTitle>
               <ArticleParagraph>
-                Although most of conflicting opinions could be resolved in
-                decision making, some of them worth testing and receiving
-                feedback from real users. Some A/B testing results shocked us
-                with opposite to our expectation. For example, we struggled with
-                designing navigation flow and some features. After some
-                discussion of them, met and make journalist and designer to
-                choose one of options. To show them options which should be more
-                robust than paper prototypes, we prepared videos and explaned
-                what task they should do with this. Without any additional
-                instruction, we just observed them, their guessing and feedback
-                of prototypes and finally knew there was a lot different from
-                our expectation. These artifacts couldn't be earn from our
-                discussion.
+                Although most of conflicting opinions could be resolved during
+                the decision-making process, some of them were worth testing and
+                receiving feedback from real users. Some A/B testing results
+                shocked us as they were in opposition to our expectations. For
+                example, we struggled with designing navigation flow and some
+                other features as well. After some discussion and meetings, we
+                asked the journalists and designers to choose one of the
+                available options. To show them options which should be more
+                robust than paper prototypes, we prepared videos and explained
+                what task they should do with Jiggle. Without any additional
+                instruction, we just observed them, watched their thinking
+                process, and received feedback on the prototypes, and lastly, we
+                learned that there were a lot of differences from our
+                expectations. These facts would never have been known just from
+                our discussions.
               </ArticleParagraph>
             </div>
           </div>
@@ -269,17 +271,17 @@ const Design = () => {
                 <ArticleSubTitle>Decision 01</ArticleSubTitle>
                 <ArticleTitle>Chart Templates</ArticleTitle>
                 <ArticleParagraph>
-                  There's been already many types of chart. Each chart has own
-                  purpose and requirements to show a result. But these typical
-                  chart would not help current journalist making their own
-                  message at all. We thought the chart should be animated as
+                  There have been already many types of chart. Each chart has
+                  own purpose and requirements to show a result. But these
+                  typical charts would not help current journalist making their
+                  own message at all. We thought the chart should be animated as
                   well as redefined own types with respect to their intention.
                   We collected currently used chart images and classify them
-                  with their shapes, intentions and frequency. This
-                  classification came out as new type of chart and we call it as
-                  'Template'. Template represent animation, shapes and intention
-                  itself. By defining like this, journalist can choose most
-                  proper one of them easily.
+                  with their shapes, intentions, and frequency. This
+                  classification came out a new type of chart and we call it
+                  'Template'. Template represent animation, shapes, and
+                  intention itself. By defining like this, the journalist can
+                  choose most proper one of them easily.
                 </ArticleParagraph>
               </div>
             </div>
@@ -306,16 +308,16 @@ const Design = () => {
               <ArticleSubTitle>Decision 02</ArticleSubTitle>
               <ArticleTitle>Inputs</ArticleTitle>
               <ArticleParagraph>
-                What if we tried to force user to input their data into our
+                What if we tried to force a user to input their data into our
                 service in a different way from what they've done before? The
                 familiar way cannot be changed easily and possibly costly.
                 'Input data' is just such a case. Most of us already use many
-                input short cut and conventions even though the program
-                continuously swithed. We always move data from one to another
-                using 'ctrl+c(copy)' and 'ctrl+v(paste)'. Also if there is case
-                should be undo, we press 'ctrl+z(undo)'. This is why knowing
-                user's workflow and familiar task is important to transfer
-                user's environment from one to other place.
+                input shortcut and conventions even though the program
+                continuously switched. We always move data from one to another
+                using 'ctrl+c(copy)' and 'ctrl+v(paste)'. Also if there is the
+                case should be undone, we press 'ctrl+z(undo)'. This is why
+                knowing user's workflow and the familiar task is important to
+                transfer user's environment from one to other places.
               </ArticleParagraph>
             </div>
           </div>
@@ -343,8 +345,8 @@ const Design = () => {
             <div className="col-xs">
               <ArticleParagraph>
                 'Cell-like' representation is really powerful user to utilize as
-                many feature as possible without any instruction. However,
-                sometimes the degree of freedom while inputing data really make
+                many features as possible without any instruction. However,
+                sometimes the degree of freedom while inputting data really make
                 service handle data hard. In our case, it would be resolved with
                 studying input data structure from practical and real example
                 data. It is because we already make our chart template including
@@ -366,13 +368,13 @@ const Design = () => {
           <div className="row start-xs">
             <div className="col-xs">
               <ArticleParagraph>
-                Specially, in the process of input, we handle narrative part of
-                chart template. The important point is this special and novel
-                feature is not sudden. It is even familiar with journalist
-                because they've already highlighted some part/cell to emphasize
-                before delivering to designer. This valuable observation can
-                save many design cost to inject new feature into typical
-                representation.
+                Especially, in the process of input, we handle the narrative
+                part of chart template. The important point is this special and
+                novel feature is not sudden. It is even familiar with a
+                journalist because they've already highlighted some part/cell to
+                emphasize before delivering to a designer. This valuable
+                observation can save many design cost to inject new feature into
+                typical representation.
               </ArticleParagraph>
             </div>
           </div>
@@ -395,14 +397,14 @@ const Design = () => {
               <ArticleSubTitle>Decision 03</ArticleSubTitle>
               <ArticleTitle>Styling</ArticleTitle>
               <ArticleParagraph>
-                Although chart template is able to deliver message, in many
-                cases, there are needs for other resources(color, image and
-                font) to be fertile what the chart means. In reality, chart has
-                some additional images on the background for the purpose of
+                Although chart template is able to deliver a message, in many
+                cases, there are needs for other resources(color, image, and
+                font) to be fertile what the chart means. In reality, a chart
+                has some additional images on the background for the purpose of
                 explaining visually(we knew that it's one of DONT in
-                visualization). However most of journalist suffer from lack of
-                sense of design. So basic styling features
-                (1)forground/background color, (2)color(Similar/Contrast) and
+                visualization). However, most of the journalist suffer from lack
+                of sense of design. So basic styling features
+                (1)foreground/background color, (2)color(Similar/Contrast) and
                 (3)image composer were designed to help journalist. In this
                 process, the load of using feature minimized based on our design
                 principle(Be familiar).
@@ -426,22 +428,22 @@ const Design = () => {
               <ArticleSubTitle>Decision 04</ArticleSubTitle>
               <ArticleTitle>Navigation</ArticleTitle>
               <ArticleParagraph>
-                With same feature and contents, the navigation can make
-                significant difference of whole service. Structing navigation
-                can be most important part so that listing up use cases as flow
-                chart should be done before. This task can help us answering
-                these questions.
+                With the same feature and contents, the navigation can make a
+                significant difference in the whole service. Structuring
+                navigation can be a most important part so that listing up use
+                cases as flow chart should be done before. This task can help us
+                by answering these questions.
                 <br />
                 <br />
-                <i>What type of task is required to do next step?</i>
+                <i>What type of task is required to do the next step?</i>
                 <br />
-                <i>What triggers user to go back they've already done?</i>
+                <i>What triggers the user to go back they've already done?</i>
                 <br />
                 <i>The relevance and frequency of each task really matter?</i>
                 <br />
                 <br />
                 Based on this, we figure out the normal and reverse flow of our
-                service and labeling each step with trigger.
+                service and labeling each step with the trigger.
               </ArticleParagraph>
             </div>
           </div>
@@ -463,8 +465,8 @@ const Design = () => {
               <ArticleParagraph>
                 With our 3 main decision (1)Chart Template, (2)Input and
                 (3)Styling and navigation flow chart it results as designing
-                scroll paging rather than pagination or page stacking. User can
-                know which direction they head to by transition and it makes
+                scroll paging rather than pagination or page stacking. A user
+                can know which direction they head to by transition and it makes
                 he/she whole process more understandable. These were the main
                 benefit of scroll paging so that we made a real app prototype
                 for testing.

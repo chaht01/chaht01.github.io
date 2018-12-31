@@ -298,7 +298,17 @@ $marginal_screen: 1300;
     text-align: center;
     color: #7b7b7b;
     transition: all 0.3s;
-    // font-size: 14px;
+    font-size: 1;
+    @media (max-width: 1200px) {
+      font-size: 1.5vw;
+    }
+    @media (max-width: 960px) {
+      font-size: 1.8vw;
+    }
+    @media (max-width: 640px) {
+      font-size: 2.5vw;
+    }
+
     line-height: 40px;
     padding: 0 1em;
     &--fixed {
@@ -347,7 +357,6 @@ $marginal_screen: 1300;
       // margin-top: -40px;
     }
     &__menu_item {
-      font-size: 14px;
       line-height: 40px;
     }
   }

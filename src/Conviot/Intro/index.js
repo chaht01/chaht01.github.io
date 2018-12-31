@@ -29,10 +29,10 @@ const Intro = () => {
               <div className="program__description">
                 In October 2016, I joined CONVIoT team as a frontend developer.
                 CONVIoT connects various IoT devices and app/web services. There
-                are already many IoT services but because venders force users to
+                are already many IoT services but because vendors force users to
                 download their own service, it is difficult to maintain all
-                those services for user. CONVIoT helps people to manage all IoT
-                device and service at once.
+                those services for the user. CONVIoT helps people to manage all
+                IoT device and service at once.
               </div>
             </div>
           </div>

@@ -106,11 +106,12 @@ const Implementation = () => {
               <ArticleSubTitle>Jiggle Core</ArticleSubTitle>
               <ArticleTitle>Chart Abstraction</ArticleTitle>
               <ArticleParagraph>
-                To solve complex and sophisticated problem, it is necessary to
-                make the problem simple as possible and usually call this
+                To solve a complex and sophisticated problem, it is necessary to
+                make the problem as simple as possible and usually call this
                 process as "Abstraction". Because our chart creating core
-                library also transform to various kinds of chart with additional
-                features, we should abstract our core chart functionalities.
+                library also transform into various kinds of the chart with
+                additional features, we should abstract our core chart
+                functionalities.
               </ArticleParagraph>
             </div>
           </div>
@@ -148,9 +149,9 @@ const Implementation = () => {
           <div className="row start-xs">
             <div className="col-xs">
               <ArticleParagraph>
-                Finally we wrapped d3.js chart library in our way. It was
+                Finally, we wrapped d3.js chart library in our way. It was
                 mandatory because we redefine chart type to including shape,
-                animation and intention. To represent them, CommonFactory must
+                animation, and intention. To represent them, CommonFactory must
                 have <br />
                 <br />
                 <b>Drawing()</b>: Shaping
@@ -182,7 +183,7 @@ const Implementation = () => {
                 As long as we chose to use 'Cell-like' UI, there must be some
                 tricky input cases. Because 'Handsontable' provides powerful
                 features to use 'Cell-like' function, put UI on our service was
-                really cheap. However, handling data should be process by our
+                really cheap. However, handling data should be processed by our
                 algorithm so that devised some steps to resolve it.
               </ArticleParagraph>
             </div>
@@ -208,8 +209,8 @@ const Implementation = () => {
               <ArticleSubTitle>Jiggle Web</ArticleSubTitle>
               <ArticleTitle>Handle Image</ArticleTitle>
               <ArticleParagraph>
-                One of main reason to design and implementing styling part was{" "}
-                <b>image attachment</b>. Even though we've already known
+                One of the main reason to design and implement the styling part
+                was <b>image attachment.</b> Even though we've already known
                 attatching images harm visualization itself, due to its
                 prevalence, we have no choice but implementing this feature. The
                 real problem of attaching images is it would hide data object
@@ -249,10 +250,10 @@ const Implementation = () => {
                 It is not easy to think that <b>GIF</b> will be an answer in
                 case all dynamic scripting is rejected. GIF can express
                 transition itself and be accepted many platforms. It even
-                doesn't require user to play cause it loops automatically. Of
+                doesn't require a user to play cause it loops automatically. Of
                 course, it has many flaws as well. Due to its old format,
-                usually it has large volume, low framerate and unable to seek
-                some point(pause or stop). However we thought it's enough to
+                usually, it has a large volume, low framerate and unable to seek
+                some point(pause or stop). However, we thought it's enough to
                 deliver our mission to Korea readers.
                 <br />
               </ArticleParagraph>
@@ -272,11 +273,11 @@ const Implementation = () => {
           <div className="row start-xs">
             <div className="col-xs">
               <ArticleParagraph>
-                New type of chart image would make typical reader confused with
-                which part they should see. It is because GIF format loops and
-                doesn't provide seek function. The <b>'progress bar'</b> can be
-                a rescue! We posed progress bar on our chart and though it can
-                be a great role to express our BI(Brand Identity).
+                The new type of chart image would make a typical reader confused
+                with which part they should see. It is because GIF format loops
+                and doesn't provide seek function. The <b>'progress bar'</b> can
+                be a rescue! We posed the progress bar on our chart and though
+                it can be a great role to express our BI(Brand Identity).
               </ArticleParagraph>
             </div>
           </div>

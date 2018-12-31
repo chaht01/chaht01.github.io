@@ -155,15 +155,15 @@ const Problems = () => {
         <div className="col-xs-22 col-sm-16 col-md-12">
           <SectionDescription>
             At a first glance, it seems right to make an assumption like "There
-            must be some troubles or obstacles to make new type media for
-            journalist". Figuring out the cause of this problem from journalist
-            can be effective to find the solution because eventually, every
-            chart on the press must be reviewed by them.
+            must be some troubles or obstacles to make the new type of media for
+            the journalist". Figuring out the cause of this problem from
+            journalist can be effective to find the solution because eventually,
+            every chart on the press must be reviewed by them.
             <br />
             <br />
             So we started interviewing 7 journalists, 3 designers and one
             developer in many media companies. From this interviewing, we knew
-            this problem should be analysed both microscopic and macroscopic
+            this problem should be analyzed both microscopic and macroscopic
             perspectives.
           </SectionDescription>
         </div>
@@ -284,12 +284,12 @@ const Problems = () => {
       <div className="row center-xs">
         <div className="col-xs-20 col-sm-16 col-md-14">
           <ArticleParagraph>
-            From these two charts, 77% of reader visit portal sites to read news
-            and only 4% of reader visit the press' web sites to read. Compare to
-            other nations, the dependency is too concentrated only on portal
-            sites in Korea. In reality, many people in Korea read news through
-            portal sites like "Naver" or "Daum" and even worse, some of them
-            regard portal sites as the press.
+            From these two charts, 77% of reader visit portal sites to read the
+            news and only 4% of reader visit the press' websites to read.
+            Compare to other nations, the dependency is too concentrated only on
+            portal sites in Korea. In reality, many people in Korea read news
+            through portal sites like "Naver" or "Daum" and even worse, some of
+            them regard portal sites as the press.
           </ArticleParagraph>
         </div>
       </div>
@@ -301,13 +301,13 @@ const Problems = () => {
       <div className="row center-xs">
         <div className="col-xs-20 col-sm-16 col-md-14">
           <ArticleParagraph>
-            This can be serious cause of our problem. Because of high traffic of
-            portal sites, the press has no choice but to publish their news to
-            portal services. In this process, the press must adjust the format
-            of their content to be received and as a result, they cannot use any
-            dynamic scripting on their contents. It makes contents less flexible
-            and experimental. This is the main reason why we still see static
-            and old type contents.
+            This can be a serious cause of our problem. Because of high traffic
+            of portal sites, the press has no choice but to publish their news
+            to portal services. In this process, the press must adjust the
+            format of their content to be received and as a result, they cannot
+            use any dynamic scripting on their contents. It makes contents less
+            flexible and experimental. This is the main reason why we still see
+            static and old type contents.
           </ArticleParagraph>
         </div>
       </div>

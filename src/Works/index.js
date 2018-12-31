@@ -73,7 +73,7 @@ const WorkLink = ({ location, shrink = false }) => {
       shrink={shrink}
     >
       <div className="ratio__inner">
-        <WorkWall_v autoPlay muted playsInline loop>
+        <WorkWall_v autoPlay={true} muted={true} playsInline={true} loop={true}>
           <source src={wall_jiggle_fallback} type="video/mp4" />
         </WorkWall_v>
       </div>

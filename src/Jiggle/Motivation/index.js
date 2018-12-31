@@ -83,19 +83,20 @@ const Motivation = () => {
           <SectionDescription>
             There have been already many data visualization tools on web. In
             industries, universities, and even media, these tools are widely
-            used. Observing charts on web news in Korea, we only could find
-            static chart images on any material.
+            used. Observing charts on online news in Korea, we only could find
+            static chart images.
             <br />
             <br />
-            In contrast to our situation, many major press media like NYT or WP
-            rather tried and led this new type of media on web. For example, NYT
-            shocked other media with "The Snowfall" which is interactive web
-            based post and even these days, they continuously make their own
-            contents with many feasible features of web. Of course, it would not
-            be any matter our chart remains static images cause with this, we're
-            able to know what it means. However, because we think public has
-            right to receive benefits from technology, we started to figure out
-            this problem.
+            In contrast to our situation, many major press companies such as the
+            NYT or the WP have led a new media movement on the web. For example,
+            the NYT shocked other companies with "The Snowfall" which is
+            interactive web based news article and even these days, they
+            continuously make their own contents with many feasible features of
+            the web. Of course, it would not be of any consequence if charts in
+            Korea online new remain as static images because people are able to
+            easily know what the charts convey. However, because our team
+            thought the public has right to receive benefits from technology, we
+            started to find solutions for this problem.
           </SectionDescription>
         </div>
       </div>

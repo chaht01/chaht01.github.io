@@ -65,7 +65,7 @@ const Ideation = () => {
           <div className="col-xs-16 col-sm-12 col-md-12">
             <div className="section__description">
               It is important to obtain inspirations from daily experiences and
-              observe the obstacle from different perspective in order to
+              observe the obstacle from a different perspective in order to
               overcome weekly design problems effectively. For ten weeks, I
               strived to utilize my inspirations gained from design concept,
               gesture or context directly or indirectly.
@@ -132,11 +132,11 @@ const Ideation = () => {
                 </div>
               </div>
               <div className="article__paragraph align--justify">
-                What will be the role of portal site (Naver) during an incident
-                of unstable network environment? From the result of the survey
-                of 199 people and experience of playing T-rex game in google
-                Chrome and attending PWA roadshow as a staff member, I thought
-                about how to improve users’ experiences especially while
+                What will be the role of the portal site (Naver) during an
+                incident of an unstable network environment? From the result of
+                the survey of 199 people and experience of playing T-rex game in
+                Google Chrome and attending PWA roadshow as a staff member, I
+                thought about how to improve users’ experiences especially while
                 internet service quality is unstable.
               </div>
             </div>
@@ -160,10 +160,10 @@ const Ideation = () => {
               </div>
               <div className="article__paragraph align--justify">
                 When can we be contented with music service quality? Why should
-                we know our favorite category of genre, songs, and artist? There
-                are too many sub-genre (1378) and songs (600k) to know
+                we know our favorite category of genre, songs, and artists?
+                There are too many sub-genre (1378) and songs (600k) to know
                 ourselves’ taste. Even in Korea, many people do not fully
-                understand their music taste as they only listen to music from
+                understand their musical taste as they only listen to music from
                 “popular music” chart.
               </div>
             </div>
@@ -172,15 +172,15 @@ const Ideation = () => {
             <div className="col-xs-10 col-md-10 col-xs-offset-2 col-md-offset-2">
               <div className="ratio--4-1" />
               <div className="article__paragraph align--justify">
-                Although there has been a great improvements in music service
-                through introduction and development of Artificial-Intelligence,
-                AI does not effectively find the music that I like.It is
-                disappointing that the service often provides unsuitable or not
-                tailored playlists for a user. In my opinion, the process of
-                making playlists is arbitrary and the range of their meaning can
-                vary from too abstract to too specific. Additionally, nested and
-                hierarchical structure of music service confuse users by their
-                ineffective navigative flow.
+                Although there have been great improvements in music service
+                through the introduction and development of
+                Artificial-Intelligence, AI does not effectively find the music
+                that I like. It is disappointing that the service often provides
+                unsuitable or not tailored playlists for a user. In my opinion,
+                the process of making playlists is arbitrary and the range of
+                their meaning can vary from too abstract to too specific.
+                Additionally, the nested and hierarchical structure of music
+                service confuses users by their ineffective navigation flow.
               </div>
               <div className="block-hide block-show-max-sm">
                 <div className="ratio--4-1" />
@@ -241,7 +241,7 @@ const Ideation = () => {
               <div className="ratio__inner row middle-xs">
                 <div className="col-xs-22 col-md-22 col-xs-offset-1 col-md-offset-1">
                   <div className="article__paragraph">
-                    Many fans wants to communicate with their celebrities by
+                    Many fans want to communicate with their celebrities by
                     their comments/words to be seen and read through global live
                     chatting service. If a user wants to express his/her message
                     more “unique”, how can the message be “unique” in the same
@@ -277,7 +277,7 @@ const Ideation = () => {
           </div>
           <div className="col-xs-20">
             <div className="article__paragraph">
-              Many fans wants to communicate with their celebrities by their
+              Many fans want to communicate with their celebrities by their
               comments/words to be seen and read through global live chatting
               service. If a user wants to express his/her message more “unique”,
               how can the message be “unique” in the same functions in the

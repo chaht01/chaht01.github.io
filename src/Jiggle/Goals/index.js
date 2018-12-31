@@ -85,11 +85,11 @@ const Goals = () => {
         <div className="col-xs-22 col-sm-16 col-md-12">
           <SectionDescription>
             From those lessons above, it's possible to set up goals to step into
-            design phase. Microscopic analysis could give us direct approach to
-            help them making new type media contents. In contarst, Macroscopic
-            analysis means our problem should be approached as platform/system
-            problem. These 3 goals below inclusively regard both microscopic and
-            macroscopic analysis.
+            the design phase. The microscopic analysis could give us a direct
+            approach to help them make the new type of media contents. In
+            contrast, Macroscopic analysis means our problem should be
+            approached as a platform/system problem. These 3 goals below
+            inclusively regard both microscopic and macroscopic analysis.
           </SectionDescription>
         </div>
       </div>
@@ -103,10 +103,11 @@ const Goals = () => {
           <GoalFigure index={"01"} />
           <GoalLabel>Without Designer</GoalLabel>
           <GoalDes>
-            Journalist wants to make their own contents without designer. Main
-            obstacles are (1){" "}
+            A journalist wants to make their own contents without a designer.
+            Main obstacles are (1)
             <u>
-              it must takes less time than the case when designer do same thing
+              it must take less time than the case when designer do the same
+              thing
             </u>{" "}
             and (2) <u>has to be easy to learn</u>.
           </GoalDes>
@@ -115,9 +116,10 @@ const Goals = () => {
           <GoalFigure index={"02"} />
           <GoalLabel>Familiar</GoalLabel>
           <GoalDes>
-            To use easily and friendly, every detail work process should be
-            familiar with what they've done before. For this reason, there need
-            to observe every step to publish news within chart from scratch.
+            To use easily and in a friendly way, every detail work process
+            should be familiar with what they've done before. For this reason,
+            there need to observe every step to publish news within chart from
+            scratch.
           </GoalDes>
         </div>
         <div className="col-xs-7 col-md-6 col-xs-offset-1">
@@ -125,9 +127,9 @@ const Goals = () => {
           <GoalLabel>Cross Platform</GoalLabel>
           <GoalDes>
             The other but possible main reason about why this problem exists
-            especially in Korea is dependency on portal sites. Changing public
-            reading source from portal to the press' site must be costly. Rather
-            than this, our design should suggest available on everywhere.
+            especially in Korea is the dependency on portal sites. Changing
+            public reading source from portal to the press' site must be costly.
+            Rather than this, our design should suggest available everywhere.
           </GoalDes>
         </div>
       </div>
@@ -140,8 +142,8 @@ const Goals = () => {
       <div className="row center-xs">
         <div className="col-xs-24">
           <HMW>
-            How might we help journalist making <br />
-            narrative chart with minimum learning cost?
+            How might we help journalist making
+            <br /> a narrative chart with minimum learning cost?
           </HMW>
         </div>
       </div>

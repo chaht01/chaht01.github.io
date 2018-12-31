@@ -65,7 +65,7 @@ const Impact = () => {
           <SectionDescription>
             For 2 months, we felt some pressure whether we can solve this big
             problem. There were many iterations to redesign and implement but
-            eventually we could take a chance to show our service to the world.
+            eventually, we could take a chance to show our service to the world.
           </SectionDescription>
         </div>
       </div>
@@ -81,7 +81,7 @@ const Impact = () => {
                 Luckily, we had many opportunities to present our idea and
                 progress. Even when we were not prepared, there were many
                 feedbacks to enhance our service quality. We were surprised that
-                many journalist have wanted our service and techinical advisory
+                many journalists have wanted our service and technical advisory
                 for adopting our core service to their CMS. This was the first
                 time we can change the world.
               </ArticleParagraph>
@@ -124,11 +124,11 @@ const Impact = () => {
               <ArticleTitle>Change Media</ArticleTitle>
               <ArticleParagraph>
                 The final destination might be seeing whether our challenge
-                really impact on the world. At the first time the chart made
-                from our service publish to portal site, we didn't yet really
-                feel this happened. Without any plugin or additional lesson to
-                journalist, we succed to see our chart has power to change our
-                media environment and problem.
+                really impacts on the world. At the first time the chart made
+                from our service publish to the portal site, we didn't yet
+                really feel this happened. Without any plugin or additional
+                lesson to the journalist, we succeed to see our chart has the
+                power to change our media environment and problem.
               </ArticleParagraph>
             </div>
           </div>

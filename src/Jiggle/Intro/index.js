@@ -56,24 +56,24 @@ const Intro = ({ scrolltop, windowSize }) => {
                 <div className="col-xs-16 col-md-10 col-md-offset-2">
                   <ProgramDescription>
                     <b>
-                      Jiggle is an web based data visualization tool for
+                      Jiggle is a web-based data visualization tool for a
                       journalist.{" "}
                     </b>{" "}
                     <br />
-                    With the advent of new format of media such as interactive
-                    news, dynamic chart and so on, online web based news has
-                    found many feasible way to deliver their message to readers.
-                    In reality, because of this type of new media should be
-                    produced with many technical resources, most of journalist
-                    suffer from being lack of creating their own content like
-                    this. So with the mission of "Benefit media with technology"
-                    in this Google newslab fellowship program, we researched,
-                    designed and finally made an web based data visualization
-                    tool for journalist. In this process, different from our
-                    assumption and expectation, there were a lot problems
-                    specific to Korea media environment so we necessarily had to
-                    figure out special solutioon for our nation and below is our
-                    takeaway from this project.
+                    With the advent of a new format of media such as interactive
+                    news, dynamic chart and so on, online web-based news has
+                    found many feasible ways to deliver their message to
+                    readers. In reality, because of this type of new media
+                    should be produced with many technical resources, most of
+                    the journalist suffer from being a lack of creating their
+                    own content like this. So with the mission of "Benefit media
+                    with technology" in this Google news lab fellowship program,
+                    we researched, designed and finally made a web-based data
+                    visualization tool for a journalist. In this process,
+                    different from our assumption and expectation, there were a
+                    lot of problems specific to Korea media environment so we
+                    necessarily had to figure out special solutions for our
+                    nation and below is our takeaway from this project.
                   </ProgramDescription>
                 </div>
               </div>

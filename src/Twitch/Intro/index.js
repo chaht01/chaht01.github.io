@@ -96,14 +96,14 @@ const IntroUI = () => {
                 express, search and analyze the main scene of the video from the
                 video streaming of the game which is recently combined with the
                 chat. Chat used as a window of user response can be effective
-                not only in the amount of simple feeds, but also in presenting
+                not only in the number of simple feeds but also in presenting
                 meaningful criteria for analyzing videos based on the words
                 used. In this project, I devised and implemented a visualization
                 that will accomplish the goals that will help the audience after
                 collecting the most frequently mentioned words from video chats.
                 The data used in this project was collected through twitch tv,
-                parsed by Python, and implemented using stacked bar chart, tree
-                map, and Volume-Bias chart using d3.js and html canvas.
+                parsed by Python, and implemented using a stacked bar chart,
+                treemap, and Volume-Bias chart using d3.js and HTML canvas.
               </ProgramDescription>
             </div>
           </div>

@@ -530,8 +530,27 @@
   color: #7b7b7b;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  font-size: 1;
   line-height: 40px;
   padding: 0 1em;
+}
+
+@media (max-width: 1200px) {
+  .homepage_feature__menu_item {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 960px) {
+  .homepage_feature__menu_item {
+    font-size: 1.8vw;
+  }
+}
+
+@media (max-width: 640px) {
+  .homepage_feature__menu_item {
+    font-size: 2.5vw;
+  }
 }
 
 .homepage_feature__menu_item--fixed {
@@ -562,7 +581,6 @@
     height: 40px;
   }
   .homepage_feature__menu_item {
-    font-size: 14px;
     line-height: 40px;
   }
 }

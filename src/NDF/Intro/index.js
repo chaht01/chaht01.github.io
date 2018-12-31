@@ -23,15 +23,15 @@ const Intro = () => {
               <div className="program__description">
                 Naver had managed UXDP, design internship/educating program.
                 Naver restarts their program as Naver Design Fellowship (NDF) by
-                redefining definition of ‘design’ as a constructing service
+                redefining the definition of ‘design’ as a constructing service
                 system not as beautifying visual illustration. NDF is a program
                 that nurtures talented students in design. For ten weeks, 8
                 participants challenge 8 actual design issues of Naver services
-                that involves many different departments of the company and our
+                that involve many different departments of the company and our
                 own design outcomes are presented and feedbacks are shared and
-                reflected. For this ten weeks of studying, I have identified
+                reflected. For these ten weeks of studying, I have identified
                 problems, specified the ideas and implemented with prototypes.
-                And now I would like to share three of the top most self-valued
+                And now I would like to share three of the topmost self-valued
                 project as ‘The project of this week’.
               </div>
             </div>
