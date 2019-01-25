@@ -49,7 +49,11 @@ const Intro = ({ scrolltop, windowSize }) => {
               <div className="row center-xs start-md">
                 <div className="col-xs-24 col-md-6 col-md-offset-3">
                   <ProgramTitle>Jiggle</ProgramTitle>
-                  <DemoLink href="http://jiggle.newslabfellows.com/">
+                  <DemoLink
+                    href="http://jiggle.newslabfellows.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Visit Demo
                   </DemoLink>
                 </div>

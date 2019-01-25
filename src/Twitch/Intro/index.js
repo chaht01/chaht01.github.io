@@ -88,7 +88,13 @@ const IntroUI = () => {
               <ProgramTitle>Twitch</ProgramTitle>
               <ProgramTitle>Chat</ProgramTitle>
               <ProgramTitle>Visualization</ProgramTitle>
-              <DemoLink href="http://twitch.hyuntak.com/">Visit Demo</DemoLink>
+              <DemoLink
+                href="http://twitch.hyuntak.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit Demo
+              </DemoLink>
             </div>
             <div className="col-xs-16 col-md-10 col-md-offset-2">
               <ProgramDescription>

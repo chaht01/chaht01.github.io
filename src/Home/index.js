@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import logo from "../logo.svg";
+import github from "./img/GitHub-Mark.png";
+import linkedin from "./img/In-Black-0p5in-R.png";
 import { Link } from "react-router-dom";
 import _ from "lodash";
 import wall_jiggle from "./img/jiggle.mp4";
@@ -36,6 +38,59 @@ const JiggleVideo = styled.video`
     translate(-50%, -50%);
   mix-blend-mode: multiply;
 `;
+
+const Resume = styled.a`
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  margin: 1em;
+  background-image: linear-gradient(0deg, #111 100%, #111);
+  background-size: 0 1px;
+  background-position: 0 99%;
+  background-repeat: no-repeat;
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  transition: background-size 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+
+  &:hover {
+    background-size: 100% 1px;
+  }
+`;
+
+const OutlinkStyle = styled.div`
+  width: 24px;
+  height: 24px;
+  background-image: url(${props => props.src});
+  background-size: contain;
+  opacity: 0.5;
+  margin: 1em;
+  transition: opacity 0.25s;
+  &:hover {
+    opacity: 1;
+  }
+`;
+OutlinkStyle.Anchor = styled.a`
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+`;
+
+const Outlink = ({ src, name, path }) => {
+  return (
+    <OutlinkStyle src={src}>
+      <OutlinkStyle.Anchor
+        href={path}
+        alt={name}
+        target="_blank"
+        rel="noopener noreferrer"
+      />
+    </OutlinkStyle>
+  );
+};
 
 const JiggleWallFallback = () => {
   return (
@@ -287,12 +342,38 @@ class Home extends Component {
             </div>
           </div>
           <div className="row center-xs">
-            <div className="col-xs-12 col-md-9">
+            <div className="col-xs-24">
               <div className="about_minor">
                 <Desc>
-                  Present Visual Insight by layering trivial things around us
+                  Present Visual Insights by layering trivial things around us
                 </Desc>
               </div>
+            </div>
+            <div className="col-xs-24">
+              <div className="row center-xs middle-xs">
+                <Outlink
+                  src={linkedin}
+                  name="linkedin"
+                  path="https://www.linkedin.com/in/chaht01/"
+                />
+                <Outlink
+                  src={github}
+                  name="github"
+                  path="https://github.com/chaht01"
+                />
+                <Resume
+                  alt="resume"
+                  href="https://drive.google.com/file/d/1JBrCu2Re_gq0cdRjmvYSjVrfGEoACxa0/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
+                </Resume>
+              </div>
+            </div>
+          </div>
+          <div className="row center-xs">
+            <div className="col-xs-12 col-md-9">
               <div className="ratio--4-1" />
             </div>
           </div>
@@ -325,6 +406,11 @@ class Home extends Component {
                     maj={`Naver D2 - CONVIoT`}
                     min={`Frontend Engineer`}
                     dur={`Oct 2016 - Feb 2017`}
+                  />
+                  <Exp
+                    maj={`Military Service - ROKAF`}
+                    min={`CERT`}
+                    dur={`May 2015 - May 2017`}
                   />
                 </div>
               </div>
