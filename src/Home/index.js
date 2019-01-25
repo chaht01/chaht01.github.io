@@ -400,7 +400,7 @@ class Home extends Component {
                   <Exp
                     maj={`Naver Design Fellowship`}
                     min={`Design Fellow`}
-                    dur={`May 2017 - June 2017`}
+                    dur={`April 2017 - June 2017`}
                   />
                   <Exp
                     maj={`Naver D2 - CONVIoT`}
