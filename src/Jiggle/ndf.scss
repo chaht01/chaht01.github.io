@@ -1,436 +1,415 @@
 @import "../css/utils";
-.topics{
-  position: relative;
-  width: 100%;
-  padding-top: 91.1956%;
-  background: #fff;
+.topics {
+	position: relative;
+	width: 100%;
+	padding-top: 91.1956%;
+	background: #fff;
 }
-.topics-typo{
-  font-family: 'Raleway', sans-serif;
-  font-weight: 100;
-  font-size: pxToVw(140)*1vw;
-  color: #e5e5e4;
-}
-
-
-.TRex{
-  position: relative;
-  width: calc(100% - 1.25vw);
-  padding-top: 64.94%;
-  background: #fff;
-  z-index: 1;
-}
-.Trex__bg{
-  background: #f5b855;
-  margin-left: 1.25vw;
-  margin-top: 1.25vw;
+.topics-typo {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: pxToVw(140)*1vw;
+	color: #e5e5e4;
 }
 
-.pwa{
-  position: relative;
-  width: 100%;
-  padding-top: 101.208%;
-  background: #4d84f1;
-  left: -1.25vw;
+.TRex {
+	position: relative;
+	width: calc(100% - 1.25vw);
+	padding-top: 64.94%;
+	background: #fff;
+	z-index: 1;
 }
-.pwa__guide{
-  width: auto;
-  border: 1px solid #4d84f1;
-}
-
-.questions{
-  position: relative;
-  width: 100%;
-  padding-top: 90.9374%;
-  left: 1.25vw;
+.Trex__bg {
+	background: #f5b855;
+	margin-left: 1.25vw;
+	margin-top: 1.25vw;
 }
 
-
-.chrome{
-  position: relative;
-  width: 100%;
-  padding-top: 57%;
-  z-index: 1;
+.pwa {
+	position: relative;
+	width: 100%;
+	padding-top: 101.208%;
+	background: #4d84f1;
+	left: -1.25vw;
+}
+.pwa__guide {
+	width: auto;
+	border: 1px solid #4d84f1;
 }
 
-.post--dummy{
-  position: relative;
-  width: 100%;
-  padding-top: 46.557%;
-  background: #ececf0;
-  .post--dummy__inner{
-    height: 100%;
-  }
-  .lines{
-    width: 79.47%;
-  }
-  .line{
-    width: 100%;
-    padding-top: 4.416%;
-    background: #dcdce2;
-    margin-bottom: 4.416%;
-    &:nth-of-type(3){
-      width: 61.8%;
-    }
-    &:nth-of-type(4){
-      width: 38.19%;
-    }
-  }
+.questions {
+	position: relative;
+	width: 100%;
+	padding-top: 90.9374%;
+	left: 1.25vw;
 }
 
-.fb-like{
-  position: relative;
-  width: 100%;
-  padding-top: 100%;
-  background: #ffffff;
-  z-index: 1;
+.chrome {
+	position: relative;
+	width: 100%;
+	padding-top: 57%;
+	z-index: 1;
 }
 
-.text-increasing{
-  position: relative;
-  width: 100%;
-  padding-top: 42.6234%;
+.post--dummy {
+	position: relative;
+	width: 100%;
+	padding-top: 46.557%;
+	background: #ececf0;
+	.post--dummy__inner {
+		height: 100%;
+	}
+	.lines {
+		width: 79.47%;
+	}
+	.line {
+		width: 100%;
+		padding-top: 4.416%;
+		background: #dcdce2;
+		margin-bottom: 4.416%;
+		&:nth-of-type(3) {
+			width: 61.8%;
+		}
+		&:nth-of-type(4) {
+			width: 38.19%;
+		}
+	}
 }
 
-.dot-bg{
-  position: relative;
-  width: 100%;
-  padding-top: 133.3333%;
+.fb-like {
+	position: relative;
+	width: 100%;
+	padding-top: 100%;
+	background: #ffffff;
+	z-index: 1;
 }
 
-
-.flip_container{
-  position: relative;
-  perspective: 1000px;
-  width: 100%;
-  padding-top: 25.83%;
-  top: 50%;
-  transform: translateY(-50%);
-
-}
-.flip{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  transform-style: preserve-3d;
-  transform: scale(0.8);
-  top:0;
-  left:0;
-  transition: transform .5s;
-  &:hover{
-    transform: scale(0.8) rotateX(90deg);
-  }
-  figure{
-    padding: 0;
-    margin:0;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    &.front{
-      transform: translateZ(5vw);
-    }
-    &.back{
-      transform: rotateX( -90deg ) translateZ(5vw);
-    }
-  }
+.text-increasing {
+	position: relative;
+	width: 100%;
+	padding-top: 42.6234%;
 }
 
-
-
-
-.idea{
-  .title{
-    font-size: pxToVw(41.94)*1vw;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    &--orange{
-      color: #f4b755;
-    }
-    &--blue{
-      color: #4d84f1;
-    }
-    &--green{
-      color: #35e085;
-    }
-    &--center{
-      text-align: center;
-    }
-  }
-
-  .desc{
-    &--below{
-      margin-top: 2vw;
-    }
-  }
+.dot-bg {
+	position: relative;
+	width: 100%;
+	padding-top: 133.3333%;
 }
 
-
-
-
-
-
-.phone-portrait{
-  position: relative;
-  width: 100%;
-  padding-top: 241.91941%;
-  &__frame{
-    width: 123.121569%;
-    transform: translateX(-50%);
-    margin-left: 50%;
-  }
-  &__screen{
-    position: relative;
-    margin-top: 32.3%;
-    width: 100%;
-    padding-top: 177.8666%;
-  }
-  &__fade{
-    width: 123.121569%;
-    height: 60%;
-    transform: translateX(-50%);
-    margin-left: 50%;
-  }
+.flip_container {
+	position: relative;
+	perspective: 1000px;
+	width: 100%;
+	padding-top: 25.83%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.flip {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	transform: scale(0.8);
+	top: 0;
+	left: 0;
+	transition: transform .5s;
+	&:hover {
+		transform: scale(0.8) rotateX(90deg);
+	}
+	figure {
+		padding: 0;
+		margin: 0;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: block;
+		position: absolute;
+		&.front {
+			transform: translateZ(5vw);
+		}
+		&.back {
+			transform: rotateX(-90deg) translateZ(5vw);
+		}
+	}
 }
 
+.idea {
+	.title {
+		font-size: 41.94px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 200;
+		&--orange {
+			color: #f4b755;
+		}
+		&--blue {
+			color: #4d84f1;
+		}
+		&--green {
+			color: #35e085;
+		}
+		&--center {
+			text-align: center;
+		}
+		@media (max-width: 60em) {
+			font-size: 30px;
+		}
+		@media (max-width: 40em) {
+			font-size: 24px;
+		}
+	}
 
-.phone-landscape{
-  position: relative;
-  width: 100%;
-  padding-top: 56.2218%;
-  &:before{
-    position: absolute;
-    content: '';
-    width: 122.5576%;
-    height:100%;
-    left: -11.278826%;
-    top:0;
-    border-radius: 3.6558vw;
-    background: rgba(255,255,255,0.5);
-    z-index: 1;
-    transition: box-shadow .2s;
-  }
-  &:hover{
-    &:before{
-      -webkit-box-shadow: 0px 12px 49px -18px rgba(0,0,0,0.3);
-      -moz-box-shadow: 0px 12px 49px -18px rgba(0,0,0,0.3);
-      box-shadow: 0px 12px 49px -18px rgba(0,0,0,0.3);
-    }
-  }
+	.desc {
+		&--below {
+			margin-top: 2vw;
+		}
+	}
 }
 
-
-
-.game{
-  *{
-    user-select: none;
-  }
+.phone-portrait {
+	position: relative;
+	width: 100%;
+	padding-top: 241.91941%;
+	&__frame {
+		width: 123.121569%;
+		transform: translateX(-50%);
+		margin-left: 50%;
+	}
+	&__screen {
+		position: relative;
+		margin-top: 32.3%;
+		width: 100%;
+		padding-top: 177.8666%;
+	}
+	&__fade {
+		width: 123.121569%;
+		height: 60%;
+		transform: translateX(-50%);
+		margin-left: 50%;
+	}
 }
 
-.game_transition_status{
-  margin-bottom: -11vw;
-  overflow: hidden;
-  &__item{
-    position: relative;
-  }
+.phone-landscape {
+	position: relative;
+	width: 100%;
+	padding-top: 56.2218%;
+	&:before {
+		position: absolute;
+		content: '';
+		width: 122.5576%;
+		height: 100%;
+		left: -11.278826%;
+		top: 0;
+		border-radius: 3.6558vw;
+		background: rgba(255, 255, 255, 0.5);
+		z-index: 1;
+		transition: box-shadow .2s;
+	}
+	&:hover {
+		&:before {
+			-webkit-box-shadow: 0px 12px 49px -18px rgba(0, 0, 0, 0.3);
+			-moz-box-shadow: 0px 12px 49px -18px rgba(0, 0, 0, 0.3);
+			box-shadow: 0px 12px 49px -18px rgba(0, 0, 0, 0.3);
+		}
+	}
 }
 
+.game {
+	* {
+		user-select: none;
+	}
+}
+
+.game_transition_status {
+	margin-bottom: -11vw;
+	overflow: hidden;
+	&__item {
+		position: relative;
+	}
+}
 
 /**
 for game bg animation
  */
 @keyframes gameBg {
-  from{
-    margin-left: 0;
-  }
-  to{
-    margin-left: -50%;
-  }
+	from {
+		margin-left: 0;
+	}
+	to {
+		margin-left: -50%;
+	}
 }
 @keyframes bird {
-  from{
-    left:100%;
-  }
-  to{
-    left:-100%;
-  }
+	from {
+		left: 100%;
+	}
+	to {
+		left: -100%;
+	}
 }
-.game_bg{
-  width: 200%;
-  top: 20%;
-  &__front{
-    -webkit-animation-duration: 10s;
-    -moz-animation-duration: 10s;
-    -o-animation-duration: 10s;
-    animation-duration: 10s;
-    -webkit-animation-name: gameBg;
-    -moz-animation-name: gameBg;
-    -o-animation-name: gameBg;
-    animation-name: gameBg;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -o-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
-  &__back{
-    -webkit-animation-duration: 25s;
-    -moz-animation-duration: 25s;
-    -o-animation-duration: 25s;
-    animation-duration: 25s;
-    -webkit-animation-name: gameBg;
-    -moz-animation-name: gameBg;
-    -o-animation-name: gameBg;
-    animation-name: gameBg;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -o-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
-  &__cloud{
-    -webkit-animation-duration: 20s;
-    -moz-animation-duration: 20s;
-    -o-animation-duration: 20s;
-    animation-duration: 20s;
-    -webkit-animation-name: gameBg;
-    -moz-animation-name: gameBg;
-    -o-animation-name: gameBg;
-    animation-name: gameBg;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -o-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
-}
-
-.birds_1{
-  -webkit-animation-duration: 20s;
-  -moz-animation-duration: 20s;
-  -o-animation-duration: 20s;
-  animation-duration: 20s;
-  -webkit-animation-name: bird;
-  -moz-animation-name:  bird;
-  -o-animation-name:  bird;
-  animation-name: bird;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -o-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-.birds_2{
-  -webkit-animation-duration: 25s;
-  -moz-animation-duration: 25s;
-  -o-animation-duration: 25s;
-  animation-duration: 25s;
-  -webkit-animation-name: bird;
-  -moz-animation-name:  bird;
-  -o-animation-name:  bird;
-  animation-name: bird;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -o-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-.birds_3{
-  -webkit-animation-duration: 15s;
-  -moz-animation-duration: 15s;
-  -o-animation-duration: 15s;
-  animation-duration: 15s;
-  -webkit-animation-name: bird;
-  -moz-animation-name:  bird;
-  -o-animation-name:  bird;
-  animation-name: bird;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -o-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+.game_bg {
+	width: 200%;
+	top: 20%;
+	&__front {
+		-webkit-animation-duration: 10s;
+		-moz-animation-duration: 10s;
+		-o-animation-duration: 10s;
+		animation-duration: 10s;
+		-webkit-animation-name: gameBg;
+		-moz-animation-name: gameBg;
+		-o-animation-name: gameBg;
+		animation-name: gameBg;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+	&__back {
+		-webkit-animation-duration: 25s;
+		-moz-animation-duration: 25s;
+		-o-animation-duration: 25s;
+		animation-duration: 25s;
+		-webkit-animation-name: gameBg;
+		-moz-animation-name: gameBg;
+		-o-animation-name: gameBg;
+		animation-name: gameBg;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+	&__cloud {
+		-webkit-animation-duration: 20s;
+		-moz-animation-duration: 20s;
+		-o-animation-duration: 20s;
+		animation-duration: 20s;
+		-webkit-animation-name: gameBg;
+		-moz-animation-name: gameBg;
+		-o-animation-name: gameBg;
+		animation-name: gameBg;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
 }
 
-
-
-
-
-
-
-.presentation{
-  position: relative;
-  width: 100%;
-  padding-top: 61.8038%;
-  background: #fff;
+.birds_1 {
+	-webkit-animation-duration: 20s;
+	-moz-animation-duration: 20s;
+	-o-animation-duration: 20s;
+	animation-duration: 20s;
+	-webkit-animation-name: bird;
+	-moz-animation-name: bird;
+	-o-animation-name: bird;
+	animation-name: bird;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.birds_2 {
+	-webkit-animation-duration: 25s;
+	-moz-animation-duration: 25s;
+	-o-animation-duration: 25s;
+	animation-duration: 25s;
+	-webkit-animation-name: bird;
+	-moz-animation-name: bird;
+	-o-animation-name: bird;
+	animation-name: bird;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.birds_3 {
+	-webkit-animation-duration: 15s;
+	-moz-animation-duration: 15s;
+	-o-animation-duration: 15s;
+	animation-duration: 15s;
+	-webkit-animation-name: bird;
+	-moz-animation-name: bird;
+	-o-animation-name: bird;
+	animation-name: bird;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 }
 
-.selection_tile{
-  margin-bottom:-32vw;
-  margin-top: 13vw;
-}
-.selection_img{
-  position: relative;
-  padding-top: 100%;
-  left: -17vw;
-}
-.brand_icons{
-  margin-top: -22vw;
-}
-.branch_img{
-  margin-top: -42.4vw;
-  margin-bottom: 42.4vw;
+.presentation {
+	position: relative;
+	width: 100%;
+	padding-top: 61.8038%;
+	background: #fff;
 }
 
-.live_icon{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 80%;
-  transform: translate(-50%, -50%);
-  &--left{
-    margin-left: -25vw;
-  }
-  &--right{
-    margin-left: 25vw;
-  }
+.selection_tile {
+	margin-bottom: -32vw;
+	margin-top: 13vw;
 }
-.live_phone{
-  &__inner{
-    z-index: 1;
-  }
+.selection_img {
+	position: relative;
+	padding-top: 100%;
+	left: -17vw;
+}
+.brand_icons {
+	margin-top: -22vw;
+}
+.branch_img {
+	margin-top: -42.4vw;
+	margin-bottom: 42.4vw;
 }
 
+.live_icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 80%;
+	transform: translate(-50%, -50%);
+	&--left {
+		margin-left: -25vw;
+	}
+	&--right {
+		margin-left: 25vw;
+	}
+}
+.live_phone {
+	&__inner {
+		z-index: 1;
+	}
+}
 
 // implementation
-.project1{
-  position: relative;
-  width: 100%;
-  padding-top: 41.666%;
+.project1 {
+	position: relative;
+	width: 100%;
+	padding-top: 41.666%;
 }
-.project2{
-  position: relative;
-  &__hand{
-    position: relative;
-    width: 100%;
-    padding-top: 56.25%;
-    background: #000;
-  }
-  &__navigation{
-    padding-top: 50.8333%;
-    background: #f8f8ff;
-  }
-  &__branching{
-    padding-top: 50%;
-  }
-  &__gesture{
-    padding-top: 42%;
-    background: #222222;
-  }
+.project2 {
+	position: relative;
+	&__hand {
+		position: relative;
+		width: 100%;
+		padding-top: 56.25%;
+		background: #000;
+	}
+	&__navigation {
+		padding-top: 50.8333%;
+		background: #f8f8ff;
+	}
+	&__branching {
+		padding-top: 50%;
+	}
 }
-.project3{
-  position: relative;
-  width: 100%;
-  background-color: #ecf0ec;
+.project3 {
+	position: relative;
+	width: 100%;
+	background-color: #ecf0ec;
 }

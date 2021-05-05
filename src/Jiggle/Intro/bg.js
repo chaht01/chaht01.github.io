@@ -8,7 +8,7 @@ const SkewText = styled.div`
   width: 250vw;
   left: 50vw;
   top: 30vh;
-  font-size: ${pxToVw(14)}vw;
+  font-size: ${pxToVw(14)}px;
   line-height: 2;
   transform: translateX(-50%) rotate3D(1, 1, 1, -60deg);
 `;

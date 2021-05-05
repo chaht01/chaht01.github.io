@@ -1,3 +1,4 @@
 export default function pxToVw(px) {
-  return (100 * px) / 1200;
+  // return (100 * px) / 1200;
+  return px
 }

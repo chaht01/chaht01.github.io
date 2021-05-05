@@ -11,9 +11,57 @@ import profile from './img/profile2.png';
 import logoShadow from './img/logo_shadow.png';
 import './home.css';
 import scrollIt from '../Helper/scrollIt';
-import { Logo, Name, Desc, ExpMaj, ExpMin } from './Header';
+import media from '../Helper/media';
+import { ExpMaj, ExpMin } from './Header';
 import Works from '../Works';
 import styled from 'styled-components';
+
+const Logo = styled.div`
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	letter-spacing: -1px;
+	${media.md`
+    font-size: 18px;
+  `};
+	${media.sm`
+    font-size: 16px;
+  `};
+`;
+
+const Name = styled(Logo)`
+	margin-bottom: 16px;
+	font-weight: 500;
+	${media.md`
+    margin-bottom: 14px;
+  `};
+	${media.sm`
+    margin-bottom: 12px;
+  `};
+`;
+
+const JobTitle = styled.div`
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	${media.md`
+    font-size: 14px;
+  `};
+	${media.sm`
+    font-size: 14px;
+  `};
+`;
+
+const SectionLabel = styled.div`
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+`;
+
+const Desc = styled.div`
+	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 100;
+`;
 
 const LogoShadow = styled.img`
 	position: absolute;
@@ -222,6 +270,7 @@ class Home extends Component {
 						>
 							<div className="col-xs-10 col-md-6 col-xs-offset-1">
 								<Logo
+									style={{ cursor: 'pointer' }}
 									onClick={e => {
 										e.preventDefault();
 										this.handleScroll();
@@ -296,22 +345,22 @@ class Home extends Component {
 								))}
 							</div>
 						</div>
-						<div className="col-xs col-xs-offset-2">
+						<div className="col-xs-12 col-xs-offset-2">
 							<div className="homepage_paragraph">
 								<div className="homepage_paragraph__title">
-									<Logo>Hyuntak Cha</Logo>
+									<Name>Hyuntak Cha</Name>
 
-									<Logo>Creative Developer</Logo>
+									<JobTitle>Creative Developer</JobTitle>
 
-									<Logo>Seoul, Korea</Logo>
+									<JobTitle>Seoul, Korea</JobTitle>
 								</div>
 								<div className="homepage_paragraph__dexcription">
 									<div>
-										<Desc>I create fun and inspirational works</Desc>
+										<Desc>I create fun and inspirational works to make people touched.</Desc>
 									</div>
-									<div>
+									{/* <div>
 										<Desc>to make people happy.</Desc>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
@@ -403,7 +452,7 @@ class Home extends Component {
 					<div className="row center-md">
 						<div className="col-xs-7 col-sm-8 col-md-3">
 							<div className="row end-xs">
-								<Name>Publication</Name>
+								<SectionLabel>Publication</SectionLabel>
 							</div>
 						</div>
 						<div className="col-xs-14 col-md-7 col-xs-offset-2 col-md-offset-2">
@@ -439,7 +488,7 @@ class Home extends Component {
 					<div className="row center-md">
 						<div className="col-xs-7 col-sm-8 col-md-3">
 							<div className="row end-xs">
-								<Name>Awards</Name>
+								<SectionLabel>Awards</SectionLabel>
 							</div>
 						</div>
 						<div className="col-xs-14 col-md-7 col-xs-offset-2 col-md-offset-2">
@@ -465,7 +514,7 @@ class Home extends Component {
 					<div className="row center-md">
 						<div className="col-xs-7 col-sm-8 col-md-3">
 							<div className="row end-xs">
-								<Name>Experience</Name>
+								<SectionLabel>Experience</SectionLabel>
 							</div>
 						</div>
 						<div className="col-xs-14 col-md-7 col-xs-offset-2 col-md-offset-2">
@@ -506,7 +555,7 @@ class Home extends Component {
 					<div className="row center-xs">
 						<div className="col-xs-7 col-sm-8 col-md-3">
 							<div className="row end-xs">
-								<Name>Education</Name>
+								<SectionLabel>Education</SectionLabel>
 							</div>
 						</div>
 						<div className="col-xs-14 col-md-7 col-xs-offset-2 col-md-offset-2">
@@ -530,32 +579,32 @@ class Home extends Component {
 					<div className="row center-xs">
 						<div className="col-xs-7 col-sm-8 col-md-3">
 							<div className="row end-xs">
-								<Name>Skills</Name>
+								<SectionLabel>Skills</SectionLabel>
 							</div>
 						</div>
 						<div className="col-xs-6 col-md-3 col-xs-offset-2 col-md-offset-2">
 							<div className="row start-xs">
-								<Name>Javascript</Name>
+								<SectionLabel>Javascript</SectionLabel>
 							</div>
 							<div className="row start-xs">
-								<Name>FramerJS</Name>
+								<SectionLabel>FramerJS</SectionLabel>
 							</div>
 							<div className="row start-xs">
-								<Name>ReactJS</Name>
+								<SectionLabel>ReactJS</SectionLabel>
 							</div>
 							<div className="row start-xs">
-								<Name>Illustrator</Name>
+								<SectionLabel>Illustrator</SectionLabel>
 							</div>
 						</div>
 						<div className="col-xs-6 col-md-3 col-xs-offset-1 col-md-offset-1">
 							<div className="row start-xs">
-								<Name>PyTorch</Name>
+								<SectionLabel>PyTorch</SectionLabel>
 							</div>
 							<div className="row start-xs">
-								<Name>Processing</Name>
+								<SectionLabel>Processing</SectionLabel>
 							</div>
 							<div className="row start-xs">
-								<Name>Three.js</Name>
+								<SectionLabel>Three.js</SectionLabel>
 							</div>
 						</div>
 					</div>

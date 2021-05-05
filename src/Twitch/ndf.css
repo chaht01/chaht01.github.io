@@ -8,7 +8,7 @@
 .topics-typo {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  font-size: 11.66667vw;
+  font-size: 140px;
   color: #e5e5e4;
 }
 
@@ -157,7 +157,7 @@
 }
 
 .idea .title {
-  font-size: 3.495vw;
+  font-size: 41.94px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
 }
@@ -434,11 +434,6 @@ for game bg animation
 
 .project2__branching {
   padding-top: 50%;
-}
-
-.project2__gesture {
-  padding-top: 42%;
-  background: #222222;
 }
 
 .project3 {

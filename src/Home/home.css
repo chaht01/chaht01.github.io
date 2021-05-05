@@ -524,13 +524,13 @@
 .homepage_feature__menu_item {
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
-  font-weight: 200;
+  font-weight: 500;
   width: 4em;
   text-align: center;
   color: #7b7b7b;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  font-size: 1;
+  font-size: 1rem;
   line-height: 40px;
   padding: 0 1em;
 }
@@ -559,12 +559,13 @@
 
 .homepage_feature__menu_item--active {
   font-weight: 300;
-  color: #ffe000;
+  color: #ffbc02;
 }
 
 .homepage_feature__menu_item :hover {
-  font-weight: 300;
-  border-bottom: 1px solid #ffe000;
+  font-weight: 500;
+  color: #646464;
+  border-bottom: 1px solid #ffbc02;
 }
 
 @media all and (min-width: 1300px) {
@@ -593,7 +594,7 @@
     margin-bottom: 1vw;
   }
   .homepage_paragraph__title, .homepage_paragraph__dexcription {
-    font-size: 1.825vw;
+    font-size: 21.9px;
   }
 }
 
