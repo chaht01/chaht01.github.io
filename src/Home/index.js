@@ -100,7 +100,7 @@ const Resume = styled.a`
 	-webkit-transform-origin: left bottom;
 	transform-origin: left bottom;
 	transition: background-size 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-
+	font-size: 16px;
 	&:hover {
 		background-size: 100% 1px;
 	}
